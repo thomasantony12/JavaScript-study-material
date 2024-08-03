@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>variables</title>
-</head>
-<body>
-    <section id="nav">
-            <h2></h2>
-            <h2>Variables</h2>
-            <a href="index.html">Back</a>
-    </section>
-    <section id="content">
-        <div class="center">
-            <ul>
-                <li><p>Cannot be a keyword. (eg: var, cons, console, log)</p></li>
-                <li><p>Should be meaning full.</p></li>
-                <li><p>Cannot start with a number. (eg: 1name)</p></li>
-                <li><p>Cannot contain space or hyphen. (eg: car-name or car name)</p></li>
-                <li><p>Cannot be a keyword(eg: var, cons, console, log)</p></li>
-                <li><p>Uses camel case notations. (eg: firstName, secondName)</p></li>
-                <li><p>JavaSceript is case sensitive.</p></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scroll">
+        <button class="btn item"><a href="index.html">Introduction</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+        <button class="btn item"><a href="variables.html">Variables</a></button>
+      </div>
+      <div class="content-container">
+        <div class="head">
+          <h2>Variables</h2>
         </div>
-    </section>
-    <section id="code">
-        <div class="code1">
-            <pre>
+        <div class="content">
+          <ul>
+            <li><p>Cannot be a keyword. (eg: var, cons, console, log)</p></li>
+            <li><p>Should be meaning full.</p></li>
+            <li><p>Cannot start with a number. (eg: 1name)</p></li>
+            <li>
+              <p>Cannot contain space or hyphen. (eg: car-name or car name)</p>
+            </li>
+            <li><p>Cannot be a keyword(eg: var, cons, console, log)</p></li>
+            <li>
+              <p>Uses camel case notations. (eg: firstName, secondName)</p>
+            </li>
+            <li><p>JavaSceript is case sensitive.</p></li>
+          </ul>
+          <pre>
                 <code>
                   let firstName = 'Thomas';
                   var lastName = 'Antony';
@@ -35,14 +43,11 @@
                   const age = 10;
                 </code>
             </pre>
+          <h2>Types of variable</h2>
+          <h3>Primitive or value types</h3>
         </div>
-    </section>
-    <section id="types">
-        <div class="types-content">
-            <h2>Types of variable</h2>
-            <h3>Primitive or value types</h3>
-        </div>
-    </section>
+      </div>
+    </div>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
