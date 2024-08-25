@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Random</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header"></div>
+      <div class="content-container">
+        <div class="head">
+          <h1>Random</h1>
+        </div>
+        <div class="content">
+          <p>
+            <b>Math.random()</b> returns a random number between 0 (inclusive),
+            and 1 (exclusive):
+          </p>
+          <p>
+            <b>Math.random()</b> used with <b>Math.floor()</b> can be used to
+            return random integers.
+          </p>
+          <pre>
+            <code>
+                <ul>
+            <li>// Returns a random integer from 0 to 9:
+            Math.floor(Math.random() * 10);</li>
+
+            <li>// Returns a random integer from 0 to 10:
+            Math.floor(Math.random() * 11);</li>
+
+            <li>// Returns a random integer from 0 to 99:
+            Math.floor(Math.random() * 100);</li>
+        </ul>
+            </code>
+        </pre>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
