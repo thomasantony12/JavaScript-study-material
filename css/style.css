@@ -1,7 +1,7 @@
 /* BODY */
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(254, 255, 238);
 }
 
 h1 {
@@ -17,6 +17,10 @@ h2 {
 }
 
 p {
+  font-family: verdana;
+}
+
+li {
   font-family: verdana;
 }
 
